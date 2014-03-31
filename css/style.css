@@ -1,0 +1,155 @@
+body
+{
+	background:#6B8CFF;;
+	margin:0;
+	height:100%;
+}
+
+html
+{
+	height:100%;
+}
+
+#aire
+{
+	position:absolute;
+	background-image:url('../img/background.png');
+	background-repeat:repeat-x;
+	background-color:#6B8CFF;
+	width:95%;
+	margin-left:2%;
+	height:calc(100% - 55px);
+}
+
+#sol
+{
+	position:absolute; 
+	width:100%;
+	height:55px;
+	bottom:0;
+	background-image:url('../img/sol.png');
+	background-repeat:repeat-x;
+}
+
+#porte
+{
+	position:absolute;
+	background-image:url('../img/porte.png');
+	width:100px;
+	height:99px;
+	right:10px;
+	bottom:0;
+	
+}
+
+#score-courant
+{
+	position:absolute;
+	top:5px;
+	right:5px;
+	font-weight:bold;
+	padding:6px 6px 6px 6px;
+	border-radius:8px;
+	background:#D34836;
+	font:bold 18px Arial;
+	color:#FFFFFF;
+	z-index:999;
+	text-align:center;
+}
+
+#score
+{
+	position:absolute;
+	width:80%;
+	left:10%;
+	height:100%;
+	background-color: rgba(0,0,0,0.5);
+}
+
+#score h1
+{
+	text-align:center;
+	color:white;
+	
+}
+
+#score button
+{
+	border:none;
+	padding:6px 6px 6px 6px;
+	border-radius:8px;
+	background:#D34836;
+	font:bold 18px Arial;
+	color:#FFFFFF;
+	left:5px;
+	right:5px;
+}
+
+#explication
+{
+	position:absolute;
+	width:80%;
+	left:10%;
+	height:100%;
+	background-color: rgba(0,0,0,0.5);
+}
+
+#explication h1
+{
+	text-align:center;
+	color:white;
+}
+
+#explication h2
+{
+	text-align:center;
+	color:white;
+}
+
+#explication button
+{
+	border:none;
+	padding:6px 6px 6px 6px;
+	border-radius:8px;
+	background:#D34836;
+	font:bold 18px Arial;
+	color:#FFFFFF;
+	left:5px;
+	right:5px;
+}
+
+.bonhomme_1
+{
+	position:absolute;
+	background-image:url('../img/bonhomme_1.png');
+	width:25px;
+	height:25px;
+	top:0;
+}
+
+.bonhomme_2
+{
+	position:absolute;
+	background-image:url('../img/bonhomme_2.png');
+	width:25px;
+	height:25px;
+	top:0;
+}
+
+.bonhomme_explosion_1
+{
+	position:absolute;
+	background-image:url('../img/explosion_bonhomme_1.png');
+	width:25px;
+	height:25px;
+	top:0;
+}
+
+.bonhomme_explosion_2
+{
+	position:absolute;
+	background-image:url('../img/explosion_bonhomme_2.png');
+	width:25px;
+	height:25px;
+	top:0;
+}
